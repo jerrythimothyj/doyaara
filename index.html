@@ -13,7 +13,7 @@
   <script src="./client/js/lib/angular/angular.min.js"></script>
   <script src="./client/js/lib/angular/angular-ui-router.min.js"></script>
 
-  <link href="./client/images/logo.png" rel="icon" type="image/x-icon">
+  <link href="./client/images/favicon.jpg" rel="icon" type="image/x-icon">
 
   <link href='./client/css/lib/fonts/pt-sans.css' rel='stylesheet' type='text/css'>
   <link href="./client/css/lib/bootstrap/bootstrap.min.css" rel='stylesheet' type='text/css'>
@@ -26,16 +26,25 @@
   <div data-ng-app="doyaara">
     <logo></logo>
     <navbar></navbar>
+
+    <div class="container-fluid">
+      <div ui-view></div>
+    </div>
   </div>
 
   <script src="./client/js/modules/doyaara.js"></script>
 
   <script src="./client/js/controllers/logoController.js"></script>
   <script src="./client/js/controllers/navbarController.js"></script>
+  <script src="./client/js/controllers/homeController.js"></script>
+  <script src="./client/js/controllers/youtubeController.js"></script>
+  <script src="./client/js/controllers/facebookController.js"></script>
 
   <script src="./client/js/directives/logoDirective.js"></script>
   <script src="./client/js/directives/navbarDirective.js"></script>
-
+  <script src="./client/js/directives/youtubeDirective.js"></script>
+  <script src="./client/js/directives/facebookDirective.js"></script>
+  <script src="./client/js/directives/welcomeDirective.js"></script>
 
 </body>
 </html>

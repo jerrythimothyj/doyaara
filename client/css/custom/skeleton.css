@@ -12,3 +12,9 @@
 .nav-pills>li>a {
     border-radius: 0px;
 }
+
+.welcome-note {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
