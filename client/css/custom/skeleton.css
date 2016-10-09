@@ -1,0 +1,20 @@
+.img-responsive {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.navbar-custom {
+    border: none;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+}
+
+.welcome-note {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
